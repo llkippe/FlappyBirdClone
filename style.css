@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #1e1e1f;
+  
+}
+canvas {
+  display: block;
+  corner-radius: 10px;
+  box-shadow: -1px 2px 5px 1px rgba(0,0,0,0.7);
+-webkit-box-shadow: -1px 2px 5px 1px rgba(0,0,0,0.7);
+-moz-box-shadow: -1px 2px 5px 1px rgba(0,0,0,0.7);
+  5px 5px 10px -5px #000000
+}
