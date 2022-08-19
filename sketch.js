@@ -5,7 +5,8 @@ var score = 0;
 var highscore = 0;
 
 function setup() {
-  createCanvas(640, 480);
+  cnv = createCanvas(640, 480);
+  cnv.touchEnded(touched);
   bird = new Bird();
   pipes.push(new Pipe());
 }
@@ -47,6 +48,9 @@ function keyPressed() {
   if (key == ' ') {
     bird.up();
   }
+}
+function touched(){
+  bird.up();
 }
 
 function reset() {
